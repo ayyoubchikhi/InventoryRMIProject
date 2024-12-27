@@ -1,0 +1,29 @@
+InventoryRMIProject/
+├── server/
+│   ├── InventoryInterface.java
+│   ├── InventoryImplementation.java
+│   ├── DAO/
+│   │   ├── ProductDAO.java
+│   │   ├── UserDAO.java
+│   ├── ServerMain.java
+├── client/
+│   ├── ClientGUI.java
+├── resources/
+│   ├── styles.css
+│   ├── logo.png
+│   ├── background.jpg
+├── policy/
+│   ├── server.policy
+├── db/
+│   ├── schema.sql
+│   ├── data.sql
+├── javafx-sdk/
+│   ├── (les dossiers JavaFX)
+├── lib/
+│   ├── mysql-connector-java-9.1.0.jar
+├── compileClient.bat
+├── compileServer.bat
+├── runServer.bat
+├── runClient.bat
+└── README.md
+

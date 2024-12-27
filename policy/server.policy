@@ -1,0 +1,4 @@
+grant {
+// Permettre toutes les permissions pour le serveur RMI
+permission java.security.AllPermission;
+};

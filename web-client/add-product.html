@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ajouter un Produit</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Ajouter un Produit</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <form id="add-product-form">
+      <div class="form-group">
+        <label for="product-name">Nom du Produit:</label>
+        <input type="text" id="product-name" name="product-name" required>
+      </div>
+      <div class="form-group">
+        <label for="product-quantity">Quantité:</label>
+        <input type="number" id="product-quantity" name="product-quantity" required>
+      </div>
+      <div class="form-group">
+        <label for="product-price">Prix:</label>
+        <input type="number" step="0.01" id="product-price" name="product-price" required>
+      </div>
+      <button type="submit">Ajouter</button>
+    </form>
+    <div id="result-message"></div>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Inventory Management. Tous droits réservés.</p>
+  </footer>
+
+  <script src="assets/script.js"></script>
+</body>
+</html>
