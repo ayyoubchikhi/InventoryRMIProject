@@ -137,5 +137,35 @@ public class InventoryImplementation extends UnicastRemoteObject implements Inve
             throw new RemoteException("Error closing database connection", e);
         }
     }
-}
 
+
+	@Override
+	public void addProduct(String name, String category, int quantity, double price) throws RemoteException {
+		try {
+			productDAO.addProduct(name, category, quantity, price);
+			Logger.log("Produit ajouté : " + name + ", Catégorie : " + category + ", Quantité : " + quantity + ", Prix : " + price);
+		} catch (SQLException e) {
+			throw new RemoteException("Erreur lors de l'ajout du produit", e);
+		}
+	}
+	
+	@Override
+	public void removeProduct(String name) throws RemoteException {
+		try {
+			productDAO.removeProduct(name);
+			Logger.log("Produit supprimé : " + name);
+		} catch (SQLException e) {
+			throw new RemoteException("Erreur lors de la suppression du produit", e);
+		}
+	}
+	
+	@Override
+	public void updateProductQuantity(String name, int quantity) throws RemoteException {
+		try {
+			productDAO.updateProductQuantity(name, quantity);
+			Logger.log("Quantité mise à jour pour le produit : " + name + " à " + quantity);
+		} catch (SQLException e) {
+			throw new RemoteException("Erreur lors de la mise à jour de la quantité", e);
+		}
+	}
+}

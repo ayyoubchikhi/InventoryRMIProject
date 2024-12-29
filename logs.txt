@@ -1,0 +1,8 @@
+[2024-12-28 12:50:27] Produit ajouté : C850, Catégorie : Cartes, Quantité : 10, Prix : 1500.0
+[2024-12-28 12:51:14] Produit supprimé : x356
+[2024-12-28 12:51:46] Quantité mise à jour pour le produit : C850 à 9
+[2024-12-28 22:10:44] Produit ajouté : smail, Catégorie : inssan, Quantité : 1, Prix : 1.0E16
+[2024-12-29 11:33:39] Produit ajouté : souris, Catégorie : Electronics, Quantité : 20, Prix : 9.0
+[2024-12-29 11:37:06] Quantité mise à jour pour le produit : souris à 19
+[2024-12-29 11:38:22] Produit ajouté : Clavier, Catégorie : Electronics, Quantité : 25, Prix : 13.0
+[2024-12-29 11:40:34] Produit supprimé : Chair

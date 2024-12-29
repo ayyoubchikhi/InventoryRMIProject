@@ -6,6 +6,7 @@ InventoryRMIProject/
 │   │   ├── ProductDAO.java
 │   │   ├── UserDAO.java
 │   ├── ServerMain.java
+│   ├── Logger.java
 ├── client/
 │   ├── ClientGUI.java
 ├── resources/
@@ -23,7 +24,11 @@ InventoryRMIProject/
 │   ├── mysql-connector-java-9.1.0.jar
 ├── compileClient.bat
 ├── compileServer.bat
+├── bin/
+│   ├── server
+|   ├── client
 ├── runServer.bat
 ├── runClient.bat
+├── logs.txt
 └── README.md
 
